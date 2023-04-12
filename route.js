@@ -40,7 +40,7 @@ app.get('/customers', (req, res) => {
             logger.info('Connected to database');
             
             // SQL query to fetch customer information
-            const query = `SELECT c.CustomerID, c.FirstName + ' ' + c.LastName AS FullName, a.AddressLine1, a.AddressLine2, a.City, a.StateProvince, a.PostalCode, a.CountryRegion FROM SalesLT.Customer c INNER JOIN SalesLT.CustomerAddress ca ON c.CustomerID = ca.CustomerID INNER JOIN SalesLT.Address a ON ca.AddressID = a.AddressID WHERE ca.AddressType = 'Shipping'`;
+            const query = `SELECT c.CustomerID, c.FirstName + ' '+ coalesce(c.MiddleName, '') +' '+ c.LastName AS FullName, a.AddressLine1 + ' ' + coalesce(a.AddressLine2, '') + ' ' + a.City  + ' ' + a.StateProvince + ' ' + a.PostalCode + ' ' + a.CountryRegion AS Address FROM SalesLT.Customer c INNER JOIN SalesLT.CustomerAddress ca ON c.CustomerID = ca.CustomerID INNER JOIN SalesLT.Address a ON ca.AddressID = a.AddressID WHERE ca.AddressType = 'Shipping'`;
 
             // fetching customer info
             new sql.Request().query(query, (err, results) => {
@@ -51,7 +51,7 @@ app.get('/customers', (req, res) => {
                     logger.info('Fetched customer information:', results);
 
                     // display customer information table
-                    res.send(`<table><thead><tr><th>CustomerID</th><th>Full Name</th><th>Address Line 1</th><th>Address Line 2</th><th>City</th><th>State Province</th><th>Postal Code</th><th>Country Region</th></tr></thead><tbody>${results.recordset.map(record => `<tr><td>${record.CustomerID}</td><td>${record.FullName}</td><td>${record.AddressLine1}</td><td>${record.AddressLine2 || ''}</td><td>${record.City}</td><td>${record.StateProvince}</td><td>${record.PostalCode}</td><td>${record.CountryRegion}</td></tr>`).join('')}</tbody></table>`);
+                    res.send(`<table><thead><tr><th>Full Name</th><th>Address</th></tr></thead><tbody>${results.recordset.map(record => `<tr><td>${record.FullName}</td><td>${record.Address}</td></tr>`).join('')}</tbody></table>`);
                 }
 
                 sql.close();
