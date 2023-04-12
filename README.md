@@ -7,6 +7,7 @@ View customer and order information from AdventureWorks (Lightweight) database h
 Install node and dependencies via npm install
 - express
 - nodemon
+- mssql
 - ejs
 - winston
 
