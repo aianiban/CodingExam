@@ -1,0 +1,65 @@
+2023-04-12T07:37:02.988Z - 12/04/2023, 3:37:02 pm - Server started on port 3000
+2023-04-12T07:38:36.519Z - Server started on port 3000
+2023-04-12T07:38:44.318Z - Connecting to database...
+2023-04-12T07:38:53.671Z - Server started on port 3000
+2023-04-12T07:38:56.700Z - Connecting to database...
+2023-04-12T07:39:44.488Z - Server started on port 3000
+2023-04-12T07:39:46.404Z - Connecting to database...
+2023-04-12T07:39:46.441Z - Connected to database
+2023-04-12T07:39:46.459Z - Fetched customer information:
+2023-04-12T07:39:46.492Z - Connecting to database...
+2023-04-12T07:39:46.501Z - Connected to database
+2023-04-12T07:39:46.513Z - Fetched customer information:
+2023-04-12T07:39:53.915Z - Connecting to database...
+2023-04-12T07:39:53.926Z - Connected to database
+2023-04-12T07:39:53.937Z - Fetched customer information:
+2023-04-12T07:39:53.956Z - Connecting to database...
+2023-04-12T07:39:53.966Z - Connected to database
+2023-04-12T07:39:53.978Z - Fetched customer information:
+2023-04-12T07:40:06.965Z - Connected to database
+2023-04-12T07:40:06.997Z - Fetched order information:
+2023-04-12T07:40:07.041Z - Connected to database
+2023-04-12T07:40:07.066Z - Fetched order information:
+2023-04-12T07:40:10.834Z - Connecting to database...
+2023-04-12T07:40:10.845Z - Connected to database
+2023-04-12T07:40:10.855Z - Fetched customer information:
+2023-04-12T07:40:10.873Z - Connecting to database...
+2023-04-12T07:40:10.884Z - Connected to database
+2023-04-12T07:40:10.896Z - Fetched customer information:
+2023-04-12T07:40:27.502Z - Connecting to database...
+2023-04-12T07:40:27.511Z - Connected to database
+2023-04-12T07:40:27.521Z - Fetched customer information:
+2023-04-12T07:40:27.538Z - Connecting to database...
+2023-04-12T07:40:27.548Z - Connected to database
+2023-04-12T07:40:27.560Z - Fetched customer information:
+2023-04-12T07:41:22.509Z - Server started on port 3000
+2023-04-12T07:55:41.004Z - Server started on port 3000
+2023-04-12T07:55:58.318Z - Server started on port 3000
+2023-04-12T07:59:42.286Z - Connecting to database...
+2023-04-12T07:59:42.321Z - Connected to database
+2023-04-12T07:59:42.339Z - Fetched customer information:
+2023-04-12T07:59:42.356Z - Connecting to database...
+2023-04-12T07:59:42.366Z - Connected to database
+2023-04-12T07:59:42.377Z - Fetched customer information:
+2023-04-12T08:05:13.598Z - Connecting to database...
+2023-04-12T08:05:13.609Z - Connected to database
+2023-04-12T08:05:13.618Z - Fetched customer information:
+2023-04-12T08:05:13.636Z - Connecting to database...
+2023-04-12T08:05:13.645Z - Connected to database
+2023-04-12T08:05:13.656Z - Fetched customer information:
+2023-04-12T08:05:15.813Z - Connected to database
+2023-04-12T08:05:15.845Z - Fetched order information:
+2023-04-12T08:05:15.890Z - Connected to database
+2023-04-12T08:05:15.913Z - Fetched order information:
+2023-04-12T08:05:31.499Z - Connecting to database...
+2023-04-12T08:05:31.507Z - Connected to database
+2023-04-12T08:05:31.516Z - Fetched customer information:
+2023-04-12T08:05:31.532Z - Connecting to database...
+2023-04-12T08:05:31.541Z - Connected to database
+2023-04-12T08:05:31.553Z - Fetched customer information:
+2023-04-12T09:35:47.312Z - Connecting to database...
+2023-04-12T09:35:47.321Z - Connected to database
+2023-04-12T09:35:47.331Z - Fetched customer information:
+2023-04-12T09:35:47.348Z - Connecting to database...
+2023-04-12T09:35:47.359Z - Connected to database
+2023-04-12T09:35:47.370Z - Fetched customer information:
