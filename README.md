@@ -1,9 +1,9 @@
-## CodingExam
+# CodingExam
 
-# About
-View customer and order information from AdventureWorks (Lightweight) database https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms Nodejs express and MS SQL (SSMS 2008).
+## About
+View customer and order information from AdventureWorks (Lightweight) database https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms using Nodejs express and MS SQL (SSMS 2008).
 
-# How to run the code
+## How to run the code
 Install node and dependencies via npm install
 - express
 - nodemon
